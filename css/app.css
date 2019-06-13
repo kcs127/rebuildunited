@@ -1,0 +1,41 @@
+/* CSS Document */
+
+.jumbotron { 
+	background-image: url("../img/timber.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.btn { margin-bottom:25px; border-radius:25px;}
+
+.btn-box { display:block; padding:15px 20px; text-align: center; border-radius:25px; color:#FFF; }
+.btn-boxx { display:block; padding:25px 20px; text-align: center; border-radius:25px; color:#FFF; font-size:24px; }
+
+.card-row { margin-top:25px; }
+.card-header { background-color:#DDD; }
+
+.carousel-caption { text-shadow: 2px 2px 10px #000; bottom:150px !important; }
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    display:block;
+	  clear:both;
+  }
+	
+	.btn-box {
+		margin-bottom:15px;
+	}
+	
+	.btn-boxx {
+		margin-bottom:15px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.carousel-caption h1 { font-size:2em !important; }
+}
+
+@media only screen and (max-width: 990px) {
+	.carousel-caption { bottom:100px !important; }
+	.carousel-caption h1 { font-size:1.5em !important; }
+}
